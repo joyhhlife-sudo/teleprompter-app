@@ -1,24 +1,34 @@
-# VoiceCue · 随声提词器
+# VoiceCue: Teleprompter / 随声提词器
 
-**VoiceCue: Teleprompter** is an iPhone teleprompter with speech-following, local script management, front/rear/compatible dual-camera recording, and optional Pro features.
+Independent public website for the iPhone teleprompter app **VoiceCue**.
 
-**随声提词器**：智能语音跟读、稿件管理、独立提词、前后摄像头拍摄及兼容设备上的双摄录制。
+**Website:** https://joyhhlife-sudo.github.io/teleprompter-app/
 
-## Official website / 官网
+- English name: **VoiceCue: Teleprompter**
+- English subtitle: **Speak Naturally, Record Easily**
+- 中文名称：**随声提词器**
+- 中文副标题：**开口即跟随，轻松拍口播。**
+- App Bundle ID: `com.xtools.voicecue`
+- Developer Team ID: `RYYV52Z7L3`
 
-- [Homepage / 产品首页](https://joyhhlife-sudo.github.io/teleprompter-app/)
-- [Privacy Policy / 隐私政策](https://joyhhlife-sudo.github.io/teleprompter-app/privacy.html)
-- [Terms of Use / 使用条款](https://joyhhlife-sudo.github.io/teleprompter-app/terms.html)
-- [Support / 技术支持](https://joyhhlife-sudo.github.io/teleprompter-app/support.html)
+## Site pages
 
-The homepage's top navigation includes a **中文 / English** language switch. The lower language selector also supports Traditional Chinese. Languages can be selected via `?lang=zh-Hans`, `?lang=zh-Hant`, or `?lang=en`.
+- [Product home](https://joyhhlife-sudo.github.io/teleprompter-app/)
+- [Privacy Policy](https://joyhhlife-sudo.github.io/teleprompter-app/privacy.html)
+- [Terms of Use](https://joyhhlife-sudo.github.io/teleprompter-app/terms.html)
+- [Support](https://joyhhlife-sudo.github.io/teleprompter-app/support.html)
 
-Static HTML/CSS/JS only. This public repository does not include proprietary iOS source code.
+The home and product cards offer English, Simplified Chinese, and Traditional Chinese; available storefront choices are US, China, Hong Kong and Taiwan. The official app screenshots on the homepage switch separately for English and Chinese. The legal page bodies currently contain Chinese/English prose and need further Traditional Chinese legal proofreading for a fully localized legal release.
 
-## Publishing
+## Design assets and prompts
 
-GitHub Pages URL: https://joyhhlife-sudo.github.io/teleprompter-app/
+- [Image 2 bilingual prompt guide (12 images)](marketing/VoiceCue_Image2_ZH_EN_12_AppStore_Screenshots.md)
+- Source app screenshots and 12 bilingual marketing mockups are stored locally in the iOS project under `VoiceCue_Marketing_2026-11-10/`. The website hosts selected bilingual app screenshot references under `assets/screen-*-en.png` and `assets/screen-*-zh.png`.
+- Real capture/dual camera footage cannot be verified by simulator; replace illustrative camera photos with real iPhone imagery before submission.
+- The app's App Store listing is not yet publicly confirmed, so the official product card deliberately says Coming Soon.
 
-The included `.github/workflows/pages.yml` deploys the `main` branch when GitHub Pages is configured to use **GitHub Actions** under **Settings → Pages → Build and deployment**.
+## Repository scope
 
-The iOS app bundle identifier is `com.xtools.voicecue`. App functionality depends on iOS version and hardware support.
+This is a static public marketing website (GitHub Pages deployed from main); **not** the closed-source iOS app repository. Avoid committing proprietary iOS source, private scripts, signing keys or user recordings.
+
+For product support: joyhhlife@gmail.com
