@@ -1,26 +1,55 @@
 (()=>{
  const dict={
- en:{home:"Home",features:"Features",screens:"Screenshots",privacy:"Privacy",terms:"Terms",support:"Support",eyebrow:"VOICECUE · TELEPROMPTER",hero:"Your words. Your pace.",lead:"A teleprompter that follows your speech — so you can look at the camera, speak naturally, and focus on your story.",view:"See real app screens",supportCta:"Help & privacy",section:"Make every take feel natural.",sectionLead:"Write or import scripts, practise at your own pace, and record with the cameras your iPhone supports.",f1:"Voice-following",f1d:"Spoken words guide the prompt position. Use manual scrolling when you prefer.",f2:"Flexible recording",f2d:"Choose front, rear, or dual-camera capture on compatible iPhones.",f3:"Script library",f3d:"Create, import and organise your scripts directly on your phone.",f4:"Prompt controls",f4d:"Adjust text size, speed, layout and mirroring for comfortable reading.",f5:"Practice & PiP",f5d:"Rehearse without recording. Picture in Picture is available where supported.",f6:"Pro upgrades",f6d:"Unlock premium features with Apple in-app purchases and restore eligible purchases.",real:"A closer look at VoiceCue",realLead:"Authentic iOS simulator captures from the current app build. The camera-preview promotional scenes are illustrative and should be replaced by final device captures.",shot1:"Script library — your content, easy to find.",shot2:"Standalone teleprompter — words in focus.",notice:"Feature availability depends on device, system version and permissions. VoiceCue is preparing for release.",gallery:"Explore apps by the same developer",gallerySub:"Each product opens the App Store for the selected storefront when available.",region:"App Store region",language:"Language",dev:"Developer's App Store page",devSub:"Explore published apps by Wenmin Zhou in the selected storefront.",open:"Open developer page",store:"View in App Store",soon:"App Store listing coming soon",voice:"Speech-guided teleprompter and recording",dual:"Capture with front and rear cameras together",privacyCam:"On-device blur and privacy effects",growth:"Height, weight and growth charts",footer:"© 2026 VoiceCue · X Tools"},
- "zh-Hans":{home:"首页",features:"核心功能",screens:"界面预览",privacy:"隐私政策",terms:"使用条款",support:"技术支持",eyebrow:"随声提词器 · VoiceCue",hero:"开口即跟随，轻松拍口播。",lead:"提词跟着你的声音走。更自然地看镜头、讲内容、录视频，让每一次表达都从容。",view:"查看真实界面",supportCta:"支持与隐私",section:"让每次开口，都自然流畅。",sectionLead:"整理文稿、智能跟读、自由选择拍摄方式，专注表达而不是盯着屏幕。",f1:"语音智能跟读",f1d:"根据朗读内容调整提词进度，也支持手动滚动。",f2:"灵活拍摄",f2d:"支持前摄、后摄及兼容 iPhone 的前后双摄。",f3:"我的稿件库",f3d:"新建、导入和整理稿件，在手机上随时准备开拍。",f4:"自定义提词",f4d:"调节字号、速度、布局与镜像，找到顺眼的提词方式。",f5:"独立提词与画中画",f5d:"不录像也可练习；支持的系统可使用画中画。",f6:"专业版权益",f6d:"通过 Apple 应用内购买解锁高级功能，并可恢复符合条件的购买。",real:"看看真实的随声提词器",realLead:"以下为当前工程的 iOS 模拟器真实截图。涉及摄像头画面的宣传设计应使用最终真机录屏替换。",shot1:"稿件库：整理稿件，快速开拍。",shot2:"独立提词：让文字成为视线焦点。",notice:"具体功能依赖设备、iOS 版本及权限。随声提词器正在准备上架。",gallery:"发现开发者的更多 App",gallerySub:"根据所选商店地区打开对应 App Store 产品页面。",region:"App Store 地区",language:"网页语言",dev:"开发者 App Store 页面",devSub:"查看开发者文敏 周在当前商店地区上架的全部 App。",open:"查看开发者页面",store:"前往 App Store",soon:"App Store 页面即将开放",voice:"语音跟读与多模式拍摄提词",dual:"前后摄像头同时录制",privacyCam:"本地模糊与隐私保护",growth:"儿童身高体重生长曲线",footer:"© 2026 随声提词器 · X Tools"},
- "zh-Hant":{home:"首頁",features:"核心功能",screens:"畫面預覽",privacy:"隱私政策",terms:"使用條款",support:"技術支援",eyebrow:"隨聲提詞器 · VoiceCue",hero:"開口即跟隨，輕鬆拍口播。",lead:"提詞跟著你的聲音走。更自然地看鏡頭、講內容、錄影片，讓每一次表達都從容。",view:"查看真實畫面",supportCta:"支援與隱私",section:"讓每次開口，都自然流暢。",sectionLead:"整理稿件、智慧跟讀、自由選擇拍攝方式，專注表達而不是盯著螢幕。",f1:"語音智慧跟讀",f1d:"根據朗讀內容調整提詞進度，也支援手動捲動。",f2:"靈活拍攝",f2d:"支援前鏡頭、後鏡頭及相容 iPhone 的前後雙鏡頭。",f3:"我的稿件庫",f3d:"新增、匯入和整理稿件，隨時準備開拍。",f4:"自訂提詞",f4d:"調整字體、速度、佈局與鏡像，找到順眼的提詞方式。",f5:"獨立提詞與子母畫面",f5d:"不錄影也可練習；支援的系統可使用子母畫面。",f6:"專業版權益",f6d:"透過 Apple App 內購買解鎖進階功能，並可恢復符合條件的購買。",real:"看看真實的隨聲提詞器",realLead:"以下為目前工程的 iOS 模擬器真實截圖。涉及鏡頭畫面的宣傳設計應使用最終實機畫面替換。",shot1:"稿件庫：整理稿件，快速開拍。",shot2:"獨立提詞：讓文字成為視線焦點。",notice:"具體功能取決於裝置、iOS 版本及權限。隨聲提詞器正在準備上架。",gallery:"探索開發者的更多 App",gallerySub:"根據所選商店地區開啟對應 App Store 產品頁面。",region:"App Store 地區",language:"網頁語言",dev:"開發者 App Store 頁面",devSub:"查看開發者文敏 周在所選地區上架的所有 App。",open:"查看開發者頁面",store:"前往 App Store",soon:"App Store 頁面即將開放",voice:"語音跟讀與多模式錄影提詞",dual:"前後鏡頭同時錄影",privacyCam:"裝置端模糊與隱私保護",growth:"兒童身高體重生長曲線",footer:"© 2026 隨聲提詞器 · X Tools"}
+ en:{scenes:"Scenes",scenesTitle:"One Story. Two Views.",scenesLead:"From food reviews to education, show yourself and the subject together.",scenesNote:"Illustrative photo composites—not real dual-camera recordings. Compatible iPhone hardware and real footage are required for verified captures.",scenesDownload:"Bilingual Image 2 prompts",home:"Home",features:"Features",screens:"Screenshots",privacy:"Privacy",terms:"Terms",support:"Support",eyebrow:"VOICECUE · TELEPROMPTER",hero:"Your words. Your pace.",lead:"A teleprompter that follows your speech — so you can look at the camera, speak naturally, and focus on your story.",view:"See real app screens",supportCta:"Help & privacy",section:"Make every take feel natural.",sectionLead:"Write or import scripts, practise at your own pace, and record with the cameras your iPhone supports.",f1:"Voice-following",f1d:"Spoken words guide the prompt position. Use manual scrolling when you prefer.",f2:"Flexible recording",f2d:"Choose front, rear, or dual-camera capture on compatible iPhones.",f3:"Script library",f3d:"Create, import and organise your scripts directly on your phone.",f4:"Prompt controls",f4d:"Adjust text size, speed, layout and mirroring for comfortable reading.",f5:"Practice & PiP",f5d:"Rehearse without recording. Picture in Picture is available where supported.",f6:"Pro upgrades",f6d:"Unlock premium features with Apple in-app purchases and restore eligible purchases.",real:"A closer look at VoiceCue",realLead:"Authentic iOS simulator captures from the current app build. The camera-preview promotional scenes are illustrative and should be replaced by final device captures.",shot1:"Script library — your content, easy to find.",shot2:"Standalone teleprompter — words in focus.",notice:"Feature availability depends on device, system version and permissions. VoiceCue is preparing for release.",gallery:"Explore apps by the same developer",gallerySub:"Each product opens the App Store for the selected storefront when available.",region:"App Store region",language:"Language",dev:"Developer's App Store page",devSub:"Explore published apps by Wenmin Zhou in the selected storefront.",open:"Open developer page",store:"View in App Store",soon:"App Store listing coming soon",voice:"Speech-guided teleprompter and recording",dual:"Capture with front and rear cameras together",privacyCam:"On-device blur and privacy effects",growth:"Height, weight and growth charts",footer:"© 2026 VoiceCue · X Tools"},
+ "zh-Hans":{scenes:"使用场景",scenesTitle:"一个故事，两个镜头。",scenesLead:"美食探店、摊位经营、商品介绍、亲子记录、教育讲解等，都能用前后双摄呈现。",scenesNote:"以下为摄影素材合成的场景演示图，并非实际双摄录制结果。正式展示实拍能力需使用兼容 iPhone 采集。",scenesDownload:"下载中英文 Image 2 提示词",home:"首页",features:"核心功能",screens:"界面预览",privacy:"隐私政策",terms:"使用条款",support:"技术支持",eyebrow:"随声提词器 · VoiceCue",hero:"开口即跟随，轻松拍口播。",lead:"提词跟着你的声音走。更自然地看镜头、讲内容、录视频，让每一次表达都从容。",view:"查看真实界面",supportCta:"支持与隐私",section:"让每次开口，都自然流畅。",sectionLead:"整理文稿、智能跟读、自由选择拍摄方式，专注表达而不是盯着屏幕。",f1:"语音智能跟读",f1d:"根据朗读内容调整提词进度，也支持手动滚动。",f2:"灵活拍摄",f2d:"支持前摄、后摄及兼容 iPhone 的前后双摄。",f3:"我的稿件库",f3d:"新建、导入和整理稿件，在手机上随时准备开拍。",f4:"自定义提词",f4d:"调节字号、速度、布局与镜像，找到顺眼的提词方式。",f5:"独立提词与画中画",f5d:"不录像也可练习；支持的系统可使用画中画。",f6:"专业版权益",f6d:"通过 Apple 应用内购买解锁高级功能，并可恢复符合条件的购买。",real:"看看真实的随声提词器",realLead:"以下为当前工程的 iOS 模拟器真实截图。涉及摄像头画面的宣传设计应使用最终真机录屏替换。",shot1:"稿件库：整理稿件，快速开拍。",shot2:"独立提词：让文字成为视线焦点。",notice:"具体功能依赖设备、iOS 版本及权限。随声提词器正在准备上架。",gallery:"发现开发者的更多 App",gallerySub:"根据所选商店地区打开对应 App Store 产品页面。",region:"App Store 地区",language:"网页语言",dev:"开发者 App Store 页面",devSub:"查看开发者文敏 周在当前商店地区上架的全部 App。",open:"查看开发者页面",store:"前往 App Store",soon:"App Store 页面即将开放",voice:"语音跟读与多模式拍摄提词",dual:"前后摄像头同时录制",privacyCam:"本地模糊与隐私保护",growth:"儿童身高体重生长曲线",footer:"© 2026 随声提词器 · X Tools"},
+ "zh-Hant":{scenes:"使用場景",scenesTitle:"一個故事，兩個鏡頭。",scenesLead:"美食探店、攤位經營、商品介紹、親子記錄、教學講解，都能以雙鏡頭呈現。",scenesNote:"以下為攝影素材合成的場景示意圖，並非真實雙鏡頭錄影結果。實拍展示需以相容 iPhone 採集。",scenesDownload:"下載中英文 Image 2 提示詞",home:"首頁",features:"核心功能",screens:"畫面預覽",privacy:"隱私政策",terms:"使用條款",support:"技術支援",eyebrow:"隨聲提詞器 · VoiceCue",hero:"開口即跟隨，輕鬆拍口播。",lead:"提詞跟著你的聲音走。更自然地看鏡頭、講內容、錄影片，讓每一次表達都從容。",view:"查看真實畫面",supportCta:"支援與隱私",section:"讓每次開口，都自然流暢。",sectionLead:"整理稿件、智慧跟讀、自由選擇拍攝方式，專注表達而不是盯著螢幕。",f1:"語音智慧跟讀",f1d:"根據朗讀內容調整提詞進度，也支援手動捲動。",f2:"靈活拍攝",f2d:"支援前鏡頭、後鏡頭及相容 iPhone 的前後雙鏡頭。",f3:"我的稿件庫",f3d:"新增、匯入和整理稿件，隨時準備開拍。",f4:"自訂提詞",f4d:"調整字體、速度、佈局與鏡像，找到順眼的提詞方式。",f5:"獨立提詞與子母畫面",f5d:"不錄影也可練習；支援的系統可使用子母畫面。",f6:"專業版權益",f6d:"透過 Apple App 內購買解鎖進階功能，並可恢復符合條件的購買。",real:"看看真實的隨聲提詞器",realLead:"以下為目前工程的 iOS 模擬器真實截圖。涉及鏡頭畫面的宣傳設計應使用最終實機畫面替換。",shot1:"稿件庫：整理稿件，快速開拍。",shot2:"獨立提詞：讓文字成為視線焦點。",notice:"具體功能取決於裝置、iOS 版本及權限。隨聲提詞器正在準備上架。",gallery:"探索開發者的更多 App",gallerySub:"根據所選商店地區開啟對應 App Store 產品頁面。",region:"App Store 地區",language:"網頁語言",dev:"開發者 App Store 頁面",devSub:"查看開發者文敏 周在所選地區上架的所有 App。",open:"查看開發者頁面",store:"前往 App Store",soon:"App Store 頁面即將開放",voice:"語音跟讀與多模式錄影提詞",dual:"前後鏡頭同時錄影",privacyCam:"裝置端模糊與隱私保護",growth:"兒童身高體重生長曲線",footer:"© 2026 隨聲提詞器 · X Tools"}
  };
  const params=new URLSearchParams(location.search);
  const norm=(v)=>{v=(v||"").toLowerCase();return v.includes("hant")||/\b(zh-tw|zh-hk|zh-mo)\b/.test(v)?"zh-Hant":v.startsWith("zh")?"zh-Hans":"en"};
  const lang=norm(params.get("lang")||navigator.language||"en");
- document.querySelectorAll("[data-vc-lang-link]").forEach(a=>{
-   const selected=a.getAttribute("data-vc-lang-link");
-   const u=new URL(location.href);
-   u.searchParams.set("lang",selected);
-   a.href=u.pathname+u.search+u.hash;
-   a.classList.toggle("is-active",selected===lang);
-   if(selected===lang)a.setAttribute("aria-current","page");
- });
  const stores=["us","cn","hk","tw"];
  let store=(params.get("store")||({en:"us","zh-Hans":"cn","zh-Hant":"hk"}[lang])).toLowerCase();if(!stores.includes(store))store="us";
  const t=dict[lang];document.documentElement.lang=lang;
+ const shotLang=lang==="en"?"en":"zh";
+ document.querySelectorAll('img[src$="screen-prompt-en.png"], img[src$="screen-library-en.png"]').forEach(img=>{img.src=img.src.replace("-en.png","-"+shotLang+".png")});
+ const nav=document.querySelector("nav");
+ if(nav){
+   const bar=document.createElement("div");
+   bar.className="vc-top-lang";
+   const s=document.createElement("select");
+   s.setAttribute("aria-label","Website language / 网页语言");
+   for(const [v,label] of [["zh-Hans","简体中文"],["en","English"],["zh-Hant","繁體中文"]]){const opt=document.createElement("option");opt.value=v;opt.textContent=label;s.appendChild(opt)}
+   s.value=lang;
+   s.addEventListener("change",()=>{const u=new URL(location.href);u.searchParams.set("lang",s.value);if(!u.searchParams.has("store"))u.searchParams.set("store",s.value==="en"?"us":s.value==="zh-Hant"?"hk":"cn");location.href=u.href});
+   bar.append(s);
+   nav.append(bar);
+ }
+ 
  document.querySelectorAll("[data-vc]").forEach(el=>{const k=el.getAttribute("data-vc");if(t[k])el.textContent=t[k];});
  function queryLink(href){const u=new URL(href,location.href);u.searchParams.set("lang",lang);u.searchParams.set("store",store);return u.pathname+u.search+u.hash;}
  document.querySelectorAll('a[data-vc-local]').forEach(a=>a.href=queryLink(a.href));
+
+ const sceneCards={
+  "07":["美食探店","Food Reviews","美食讲解 + 主播出镜","The host and the food"],
+  "08":["旅行风景","Travel & Landscape","讲述旅途感受，展示眼前风景","Share the view and your story"],
+  "09":["摆摊探店","Food Stalls","摊主介绍 + 摊位与食材","Meet the owner and see the stall"],
+  "10":["商品介绍","Product Demos","讲解卖点 + 展示产品细节","Explain features and show details"],
+  "11":["亲子记录","Family Moments","孩子的活动 + 家长的讲述","Capture everyday family moments"],
+  "12":["教育讲解","Education","老师讲解 + 教具展示","Teach with the instructor in view"],
+  "13":["实地解说","On-location Guide","现场介绍 + 眼前景色","Explain a place as you explore it"],
+  "14":["门店推广","Small Business","店主介绍 + 店内环境","Meet the owner and explore the shop"]
+ };
+ document.querySelectorAll('[data-scene-id]').forEach(card=>{
+   const id=card.dataset.sceneId, v=sceneCards[id];
+   if(!v)return;
+   const imageLang=lang==='en'?'en':'zh';
+   const src='assets/scenarios/scene-'+id+'-'+imageLang+'.jpg';
+   const im=card.querySelector('img'),link=card.querySelector('a');
+   im.src=src;im.alt=(lang==='en'?v[1]:v[0])+' — illustrative VoiceCue dual-camera layout';
+   link.href=src;
+   card.querySelector('h3').textContent=lang==='en'?v[1]:v[0];
+   card.querySelector('p').textContent=lang==='en'?v[3]:v[2];
+ });
  const products=[
  {id:"voicecue",name:"VoiceCue: Teleprompter / 随声提词器",image:"assets/icon.png",desc:"voice",pending:true},
  {id:"6777402248",name:"X Dual Capture",image:"assets/x-dual-capture.png",desc:"dual"},
@@ -43,3 +72,5 @@
  // Existing legal pages use the earlier bilingual renderer; keep its content intact.
  const oldLogo=document.querySelector('nav .logo');if(oldLogo)oldLogo.innerHTML='<img src="assets/icon.png" alt="VoiceCue app icon">';
 })();
+
+[executed on device: appdeMacBook-Pro.local (3f1cdc64-d0be-444e-8f96-f7bf42a009a4)]

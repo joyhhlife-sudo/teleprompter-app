@@ -32,3 +32,12 @@ The home and product cards offer English, Simplified Chinese, and Traditional Ch
 This is a static public marketing website (GitHub Pages deployed from main); **not** the closed-source iOS app repository. Avoid committing proprietary iOS source, private scripts, signing keys or user recordings.
 
 For product support: joyhhlife@gmail.com
+
+## Bilingual dual-camera scene gallery
+
+Eight bilingual photographic concept compositions have been added to the [scene gallery](https://joyhhlife-sudo.github.io/teleprompter-app/#scenarios): food reviews, landscapes, food stalls, product demonstrations, family moments, education, on-location guides, and small businesses.
+
+- Preview JPG files: assets/scenarios/scene-07-en.jpg and scene-07-zh.jpg, continuing through scene-14. The website selects the matching image when the language changes.
+- Detailed [Chinese and English Image 2 prompts](marketing/VoiceCue_Image2_DualCamera_8_Scenarios_Bilingual.md) include corresponding narrated text and source asset paths.
+- Full-size PNG marketing compositions, 16 narrated sample TXT scripts, and a 10-image-per-language App Store candidate pack are stored locally in the VoiceCue_Marketing_2026-11-10 directory.
+- Photography is a **scene composite**, not a verified simultaneous front/rear iPhone capture. Replace with genuine footage before advertising as a real recording.
