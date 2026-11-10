@@ -13,7 +13,7 @@
  const shotLang=lang==="en"?"en":"zh";
  document.querySelectorAll('img[src$="screen-prompt-en.png"], img[src$="screen-library-en.png"]').forEach(img=>{img.src=img.src.replace("-en.png","-"+shotLang+".png")});
  const nav=document.querySelector("nav");
- if(nav){
+ if(nav && !nav.querySelector(".vc-top-lang")){
    const bar=document.createElement("div");
    bar.className="vc-top-lang";
    const s=document.createElement("select");
